@@ -87,8 +87,8 @@ const updateCalculatorState = (
   if (keyType === "calculate") {
     calculator.dataset.modValue =
       firstValue && previousKeyType === "calculate" ? modValue : displayedNum;
-  } 
-  if(keyType === '.key--equal') {
+  }
+  if (keyType === ".key--equal") {
     calculatedValue.textContent = displayedNum;
   }
 
